@@ -12,10 +12,7 @@ end
 
 depends 'python'
 
-recommends 'php'
-recommends 'ms_dotnet4'
 recommends 'curl'
-recommends 'nodejs'
 
 recipe 'newrelic', 'Adds the New Relic repository, installs & configures the New Relic server monitor agent.'
 recipe 'newrelic::repository', 'Adds the New Relic repository.'
